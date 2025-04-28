@@ -10,3 +10,11 @@ export interface StatProps {
   postfix: string;
   text: string;
 }
+
+// service types
+export interface ServiceProps {
+  id: string;
+  title: string;
+  description: string;
+  href: string;
+}
