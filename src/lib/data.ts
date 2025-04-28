@@ -1,4 +1,4 @@
-import { NavLinks, ServiceProps, StatProps } from "@/types/types";
+import { AboutProps, EducationProps, ExperienceProps, NavLinks, ServiceProps, StatProps } from "@/types/types";
 
 // navLinks using headers
 export const navLinks: NavLinks[] = [
@@ -79,3 +79,124 @@ export const services: ServiceProps[] = [
     href: "",
   },
 ];
+
+// about data
+export const about: AboutProps = {
+  title: "About me",
+  description:
+    "This is Naimur Rahman Nishat. I am a software developer & programmer.",
+  info: [
+    {
+      fieldName: "Name",
+      fieldValue: "Naimur Rahman Nishat",
+    },
+    {
+      fieldName: "Phone",
+      fieldValue: "(+880 15684-50889)",
+    },
+    {
+      fieldName: "Experience",
+      fieldValue: "3+ Years",
+    },
+    {
+      fieldName: "Skype",
+      fieldValue: "NaimurRahman.34",
+    },
+    {
+      fieldName: "Nationality",
+      fieldValue: "Bangladeshi",
+    },
+    {
+      fieldName: "Email",
+      fieldValue: "naimurrahmun34@gmail.com",
+    },
+    {
+      fieldName: "Freelance",
+      fieldValue: "Available",
+    },
+    {
+      fieldName: "Language",
+      fieldValue: "English,Bangla",
+    },
+  ],
+};
+
+
+// experience data
+export const experience:ExperienceProps = {
+  icon: "/resume/badge.svg",
+  title: "My experience",
+  description: "I am a software developer & programmer.",
+  items: [
+    {
+      company: "Selopia IT",
+      position: "Font-end Developer",
+      duration: "2023-Present",
+    },
+    {
+      company: "Selopia IT",
+      position: "Font-end Developer intern",
+      duration: "Summer-2023",
+    },
+    {
+      company: "E-commerce Startup",
+      position: "Freelance Web Developer",
+      duration: "2022-2023",
+    },
+    {
+      company: "Tech Academy",
+      position: "Teaching Assistant",
+      duration: "2022-2023",
+    },
+    {
+      company: "Degital Agency",
+      position: "UI/UX Designer",
+      duration: "2020-2021",
+    },
+    {
+      company: "Selopia IT",
+      position: "junior Developer",
+      duration: "2022-2023",
+    },
+  ],
+};
+
+// education data
+export const education:EducationProps = {
+  icon: "/resume/cap.svg",
+  title: "My education",
+  description: "I am a software developer & programmer.",
+  items: [
+    {
+      institution: "Online Course Platform",
+      degree: "Font-end Web Developer Bootcamp",
+      duration: "2022",
+    },
+    {
+      institution: "Codeacademy",
+      degree: "Font-end Track",
+      duration: "2022",
+    },
+    {
+      institution: "Online Course",
+      degree: "Programming Course",
+      duration: "2021",
+    },
+    {
+      institution: "Selopia IT",
+      degree: "Certified Web Developer",
+      duration: "2023",
+    },
+    {
+      institution: "Design School",
+      degree: "Deploma in Graphic Design",
+      duration: "2021-2022",
+    },
+    {
+      institution: "Community Collage",
+      degree: "Associate Degree in Computer Science",
+      duration: "2020-2021",
+    },
+  ],
+};
+
