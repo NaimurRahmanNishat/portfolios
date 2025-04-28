@@ -138,7 +138,7 @@
     @apply bg-background text-foreground;
   }
   .text-outline {
-    -webkit-text-stroke: 1px #ffffff;
+    -webkit-text-stroke: 1px #53f388;
   }
   .group:hover .group-hover\:text-outline-hover {
     -webkit-text-stroke: 1px #00ff99;

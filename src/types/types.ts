@@ -1,3 +1,5 @@
+import { CSSProperties } from "react";
+
 // navLinks data types
 export interface NavLinks {
   name: string;
@@ -51,4 +53,25 @@ export interface EducationProps {
     degree: string;
     duration: string;
   }[];
+}
+
+// WorkSliderBtnsProps data type
+export interface WorkSliderBtnsProps {
+  containerStyles?: string;
+  btnStyles?: string;
+  iconsStyles?: CSSProperties;
+}
+
+// service data types
+export interface projectProps {
+  num: string;
+  category: string;
+  title: string;
+  description: string;
+  stack: {
+    name: string;
+  }[];
+  image: string;
+  live: string;
+  github: string;
 }

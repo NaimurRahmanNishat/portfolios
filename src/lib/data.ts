@@ -1,4 +1,4 @@
-import { AboutProps, EducationProps, ExperienceProps, NavLinks, ServiceProps, StatProps } from "@/types/types";
+import { AboutProps, EducationProps, ExperienceProps, NavLinks, projectProps, ServiceProps, StatProps } from "@/types/types";
 
 // navLinks using headers
 export const navLinks: NavLinks[] = [
@@ -121,7 +121,6 @@ export const about: AboutProps = {
   ],
 };
 
-
 // experience data
 export const experience:ExperienceProps = {
   icon: "/resume/badge.svg",
@@ -200,3 +199,39 @@ export const education:EducationProps = {
   ],
 };
 
+// service data
+export const projects: projectProps[] = [
+  {
+    num: "01",
+    category: "fontend",
+    title: "project 1",
+    description:
+      "Using markup languages like HTML to create user-friendly web pages. Maintaining and improving website.",
+    stack: [{ name: "HTML 5" }, { name: "CSS 3" }, { name: "JavaScript" }],
+    image: "/work/thumb1.png",
+    live: "",
+    github: "https://github.com/NaimurRahmanNishat?tab=repositories",
+  },
+  {
+    num: "02",
+    category: "backend",
+    title: "project 2",
+    description:
+      "Back-end developers ensure the website performs correctly, focusing on databases, back-end logic, application programming interface (APIs), architecture, and servers.",
+    stack: [{ name: "Next.js" }, { name: "Django" }, { name: "Typescript" }],
+    image: "/work/thumb2.png",
+    live: "",
+    github: "https://github.com/NaimurRahmanNishat?tab=repositories",
+  },
+  {
+    num: "03",
+    category: "fullstack",
+    title: "project 3",
+    description:
+      "A full-stack developer is a developer or engineer who can build both the front end and the back end of a website.",
+    stack: [{ name: "JavaScript" }, { name: "Python" }],
+    image: "/work/thumb3.png",
+    live: "",
+    github: "https://github.com/NaimurRahmanNishat?tab=repositories",
+  },
+];
