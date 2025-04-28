@@ -5,6 +5,7 @@ import Header from "@/components/shared/navbar/Header";
 import Footer from "@/components/shared/footer/Footer";
 import PageTransition from "@/components/shared/component/PageTransition";
 import StairTransition from "@/components/shared/component/StairTransition";
+import { ScrollToTop } from "@/components/shared/component/ScrollTooltip";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -32,12 +33,15 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <div className="bg-darkBlack min-h-screen text-white">
-        <Header />
-        <StairTransition/>
-        <main className="px-4 sm:px-8 md:px-16 lg:px-32 xl:px-64 2xl:px-84">
-          <PageTransition>{children}</PageTransition>
-        </main>
-        <Footer />
+          <Header />
+          <StairTransition />
+          <main className="px-4 sm:px-8 md:px-16 lg:px-32 xl:px-64 2xl:px-84">
+            <PageTransition>
+              {children}
+              <ScrollToTop />
+            </PageTransition>
+          </main>
+          <Footer />
         </div>
       </body>
     </html>

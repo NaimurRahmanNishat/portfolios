@@ -61,6 +61,7 @@ const Home = () => {
         </div>
       </div>
       <Stats />
+      <div className="h-[1000px]"></div>
     </section>
   );
 };
