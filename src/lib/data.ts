@@ -1,4 +1,4 @@
-import { AboutProps, EducationProps, ExperienceProps, NavLinks, projectProps, ServiceProps, StatProps } from "@/types/types";
+import { AboutProps, EducationProps, ExperienceProps, NavLinks, projectCardProps, projectProps, ServiceProps, StatProps } from "@/types/types";
 
 // navLinks using headers
 export const navLinks: NavLinks[] = [
@@ -235,3 +235,79 @@ export const projects: projectProps[] = [
     github: "https://github.com/NaimurRahmanNishat?tab=repositories",
   },
 ];
+
+// project card data
+export const projectCard:projectCardProps[] = [
+  {
+    id:1,
+    name: "Airport Management System",
+    description: "In the airport management project I used the React library Nextjs freamework. In this project I have choose TypeScript language because TypeSctipt is better than JavaScript. And for authentication I used Clerk Authentication. If you want, you can login to my technology with Google or GitHub. The main purpose of my project is to find out the distance from one airport to another, what kind of airport it is, and how much does it cost to fly from one airport to another and more discuss in details. This project has comments alongside each code so that all the features of the code can be understood better.",
+    image: "/slider/airport.png",
+    link: "https://airport-management-psi.vercel.app/",
+    github:"https://github.com/NaimurRahmanNishat/airport_management.git",
+  },
+  {
+    id:2,
+    name: "Mern Stack Ecommerce",
+    description: "In this ecommerce project, I used Reactjs for front-end development and for backend development I used Nodejs and Expressjs framework. I used in MongoDB Atlas using for Database. And use Stripe payment gatewaye for payment integration. I also used Redux Turkit for state management. In this project, you will see a separate dashboard for users and a separate dashboard for admins. If the user wants, they can upload a product and sell it, and for that they have to get permission from the admin, and if the admin wants, they can make the user an admin. And many more things have been added to this project. Modern frameworks like Famer Motion and Sechen have been used for animation.",
+    image: "/slider/mernstack.png",
+    link: "",
+    github:"",
+  },
+  {
+    id:3,
+    name: "Meta Blog",
+    description: "In this project basically mern stack project. I used Reactjs for front-end development and for backend development I used Nodejs and Expressjs framework. I used in MongoDB Atlas using for Database. In this project you can read a blog and if you want to read that blog in more detail, you can do that too. In this project you can add, delete and update blogs. This blog uses the React Context API to manage statements. The technology also includes filtering and sorting systems. And you can use the project as a dark mode or white mode if you want.",
+    image: "/slider/metablog.png",
+    link: "https://meta-blog-frontend.vercel.app/",
+    github:"https://github.com/NaimurRahmanNishat/meta-blog-frontend.git",
+  },
+  {
+    id:4,
+    name: "News Portal",
+    description: "This is a news protal project and this is full stack project. This project using nextjs freamwork. In this technology, data is transferred from packets through API calls. In this technology, you can read news and if you want to read the newspaper news in more detail, you can go to the blog page and on that page, a single card page has been created by holding the ID.This project provides filtering and sorting With the help of which you can easily get the news you want.",
+    image: "/slider/newsportal.png",
+    link: "https://news-portal-lilac.vercel.app/",
+    github:"https://github.com/NaimurRahmanNishat/news-portal.git",
+  },
+  {
+    id:5,
+    name: "Furniture Shop",
+    description: "This is basically a furniture website. On this website you can find information about all types of furniture and you can also place orders to purchase furniture. In this technology, you can only see the user interface. You cannot purchase anything because this technology has no involvement with the back end. This is basically a static website. To create this technology, React JMe Work has been used and Typing Script has been used as the language and CSS has been used for the tailwindCSS framework.",
+    image: "/slider/furniture.png",
+    link: "https://furniture-sooty.vercel.app/",
+    github:"https://github.com/NaimurRahmanNishat/furniture.git",
+  },
+  {
+    id:6,
+    name: "Seba Ghor",
+    description: "This is s static website. In this project you will find doctor information and hospital information.This project was created primarily with the Nextjs framework. In this project you will see sticky header and along with it you will see a drop down button to move up with which you can easily move up by yourself. The project uses a single page to search for doctors and a single page to search for hospitals, with the help of which you can get complete information about doctors and hospitals.And in technology you will see sticky cyber with the help of which you can easily use scoring and with that filtering and sorting has been arranged in project.",
+    image: "/slider/sebaghor.png",
+    link: "https://amar-sebaghor.vercel.app/",
+    github:"https://github.com/NaimurRahmanNishat/amar-sebaghor.git",
+  },
+  {
+    id:7,
+    name: "Seller Interactive",
+    description: "This project is basically Amazon SEO Besed Project. With technology, you can easily get all the information you need about Amazon SEO. This project has added sticky headers and drop down headers. And this project uses a single page to search for products, with which you can get complete information about a job.",
+    image: "/slider/seller.png",
+    link: "https://sellerinteractives.vercel.app/",
+    github:"https://github.com/NaimurRahmanNishat/sellerinteractive.git",
+  },
+  {
+    id:8,
+    name: "Doctor Care",
+    description: "This technology is basically made of HTML CSS and JavaScript. It is basically a simple project with the help of which some things of HTML CSS and JavaScript can be learned very easily and this technology has a very beautiful use of scrolling with the help of which scaling can be done very beautifully.",
+    image: "/slider/doctorcare.png",
+    link: "https://doctor-care-omega.vercel.app/",
+    github:"https://github.com/NaimurRahmanNishat/doctor_care.git",
+  },
+  {
+    id:9,
+    name: "Resturant Hunter",
+    description: "This technology is basically made of HTML CSS and JavaScript. It is basically a simple project with the help of which some things of HTML CSS and JavaScript can be learned very easily and this technology has a very beautiful use of scrolling with the help of which scaling can be done very beautifully.",
+    image: "/slider/resturent.png",
+    link: "https://resturent-lemon.vercel.app/",
+    github:"https://github.com/NaimurRahmanNishat/resturent.git",
+  }
+]

@@ -75,3 +75,13 @@ export interface projectProps {
   live: string;
   github: string;
 }
+
+// projectCard data types
+export interface projectCardProps {
+  id: number;
+  name: string;
+  description: string;
+  image: string;
+  link: string;
+  github: string;
+}

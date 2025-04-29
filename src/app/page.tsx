@@ -9,6 +9,7 @@ import Photo from "../components/shared/component/Photo";
 import Stats from "../components/shared/component/Stats";
 import TypeWritter from "@/components/shared/component/TypeWritter";
 import Slider from "@/components/shared/component/Slider";
+import ProjectCard from "@/components/shared/component/ProjectCard";
 
 const Home = () => {
   return (
@@ -64,6 +65,16 @@ const Home = () => {
       <Stats />
       <div className="container mx-auto pt-12">
         <Slider/>
+      </div>
+      <div>
+        <div className="container mx-auto py-24">
+          <h1 className="bg-gradient-to-r from-violet-600 to-orange-600 bg-clip-text text-transparent text-center font-secondary font-bold text-2xl md:text-4xl xl:text-6xl">
+          <TypeWritter>
+          Our Best Project
+          </TypeWritter>
+          </h1>
+        </div>
+        <ProjectCard/>
       </div>
     </section>
   );
