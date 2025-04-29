@@ -8,6 +8,7 @@ import Socials from "../components/shared/component/Socials";
 import Photo from "../components/shared/component/Photo";
 import Stats from "../components/shared/component/Stats";
 import TypeWritter from "@/components/shared/component/TypeWritter";
+import Slider from "@/components/shared/component/Slider";
 
 const Home = () => {
   return (
@@ -61,6 +62,9 @@ const Home = () => {
         </div>
       </div>
       <Stats />
+      <div className="container mx-auto pt-12">
+        <Slider/>
+      </div>
     </section>
   );
 };
