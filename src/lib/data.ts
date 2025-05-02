@@ -251,8 +251,8 @@ export const projectCard:projectCardProps[] = [
     name: "Mern Stack Ecommerce",
     description: "In this ecommerce project, I used Reactjs for front-end development and for backend development I used Nodejs and Expressjs framework. I used in MongoDB Atlas using for Database. And use Stripe payment gatewaye for payment integration. I also used Redux Turkit for state management. In this project, you will see a separate dashboard for users and a separate dashboard for admins. If the user wants, they can upload a product and sell it, and for that they have to get permission from the admin, and if the admin wants, they can make the user an admin. And many more things have been added to this project. Modern frameworks like Famer Motion and Sechen have been used for animation.",
     image: "/slider/mernstack.png",
-    link: "",
-    github:"",
+    link: "https://nishat-frontend.vercel.app/",
+    github:"https://github.com/NaimurRahmanNishat/nishat-frontend.git",
   },
   {
     id:3,

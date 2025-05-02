@@ -70,7 +70,7 @@ const Home = () => {
         <div className="container mx-auto py-24">
           <h1 className="bg-gradient-to-r from-violet-600 to-orange-600 bg-clip-text text-transparent text-center font-secondary font-bold text-2xl md:text-4xl xl:text-6xl">
           <TypeWritter>
-          Our Best Project
+          Our Project
           </TypeWritter>
           </h1>
         </div>
