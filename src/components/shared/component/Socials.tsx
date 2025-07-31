@@ -10,7 +10,7 @@ interface Props{
 const socials:Props[]=[
     {
         icon:<FaGithub/>,
-        path:"https://github.com/NaimurRahmanNishat?tab=repositories",
+        path:"https://github.com/NaimurRahmanNishat",
     },
     {
         icon:<FaLinkedin/>,
