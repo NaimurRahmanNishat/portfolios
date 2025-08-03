@@ -18,7 +18,7 @@ const socials:Props[]=[
     },
     {
         icon:<FaFacebook/>,
-        path:"https://www.facebook.com/naimurrahmannishat06",
+        path:"https://www.facebook.com/profile.php?id=61576332312271",
     },
     {
         icon:<FaTwitter/>,
