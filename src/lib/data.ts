@@ -210,7 +210,7 @@ export const projects: projectProps[] = [
     stack: [{ name: "HTML 5" }, { name: "CSS 3" }, { name: "JavaScript" }],
     image: "/work/thumb1.png",
     live: "",
-    github: "https://github.com/NaimurRahmanNishat?tab=repositories",
+    github: "https://github.com/NaimurRahmanNishat/nextjs_blog",
   },
   {
     num: "02",
