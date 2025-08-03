@@ -220,8 +220,8 @@ export const projects: projectProps[] = [
       "Back-end developers ensure the website performs correctly, focusing on databases, back-end logic, application programming interface (APIs), architecture, and servers.",
     stack: [{ name: "Next.js" }, { name: "Django" }, { name: "Typescript" }],
     image: "/work/thumb2.png",
-    live: "",
-    github: "https://github.com/NaimurRahmanNishat?tab=repositories",
+    live: "https://nishat-frontend.vercel.app/",
+    github: "https://github.com/NaimurRahmanNishat/nishat-frontend",
   },
   {
     num: "03",
@@ -231,8 +231,8 @@ export const projects: projectProps[] = [
       "A full-stack developer is a developer or engineer who can build both the front end and the back end of a website.",
     stack: [{ name: "JavaScript" }, { name: "Python" }],
     image: "/work/thumb3.png",
-    live: "",
-    github: "https://github.com/NaimurRahmanNishat?tab=repositories",
+    live: "https://booknest-client-zy9d.vercel.app/",
+    github: "https://github.com/NaimurRahmanNishat/booknest-client",
   },
 ];
 
